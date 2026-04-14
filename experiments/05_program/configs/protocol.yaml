@@ -1,0 +1,49 @@
+experiment:
+  name: "05_program_small_sample_curve"
+  target_mode: "one_minus_bRate"
+  primary_metrics: ["cross_entropy", "mae"]
+  secondary_metrics: ["rmse", "mse", "r2", "correlation", "parse_success_rate"]
+  # 下列为研究备忘（原 20260331.ini），正式结论以当次 run 的 split_manifest 与 summary 为准
+  research_notes:
+    - "LLM 上下文长度：注意 prompt + k-shot 是否触及模型上限。"
+    - "QLoRA：可探索 1 epoch 全量后再按 0.2/0.4/0.6/0.8/1.0 epoch 续训；或多 checkpoint。"
+    - "推理：可选用 vLLM 等加速；记录版本号。"
+    - "训练目标：曾观测验证 MSE 约 0.018 量级（依数据与模型而定，勿作硬阈值）。"
+    - "预算：3–6 epoch、提前构建 jsonl 数据集以锁哈希。"
+
+data:
+  # 主实验请使用聚合比例任务（en_v2）；en2_preference 为个人选择，勿与主结果混比
+  prompts_path: "experiments/03_LLM/results/prompts_en_v2.jsonl"
+  test_size: 0.2
+  split_random_state_base: 1017
+  master_seed: 42
+
+sampling:
+  sample_sizes: [4, 8, 16, 32, 64, 128]
+  seeds: [42, 43]
+
+llm:
+  base_url: "http://127.0.0.1:11434"
+  temperature: 0.0
+  timeout_seconds: 120
+  num_predict: 32
+  max_retries: 1
+  dedup_icl: true
+  kshot_decimals: 4
+  # 推理缓存：机械盘慢时可改为 SSD 绝对路径，例如 "C:/数据中转站/choices13k_llm_cache"
+  cache_dir: "experiments/03_LLM/results/cache"
+  dry_run: false
+
+evaluation:
+  ce_eps: 1.0e-15
+  # null：主指标仅在 parse_ok 样本上计算，解析失败不静默填 0.5（与 03_LLM 合同一致）
+  llm_parse_fail_fill: null
+  ci_level: 0.95
+  bootstrap_samples: 1000
+  n_target_metric: "mae"
+  n_target_value: 0.18
+
+paths:
+  output_root: "experiments/05_program/outputs"
+  # SSD 中转：整次 run_* 先写这里（减轻机械盘小文件写入）；成功后复制到 output_root 并删除此处同名目录。不用则设为 null
+  staging_output_root: "C:/数据中转站/choices13k_05_runs"

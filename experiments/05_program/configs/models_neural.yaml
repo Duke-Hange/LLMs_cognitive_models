@@ -1,0 +1,6 @@
+family: "neural"
+models:
+  - model_id: "value-based"
+    source_name: "value_based"
+  - model_id: "context-dependent(s)"
+    source_name: "context_dependent_sigmoid"

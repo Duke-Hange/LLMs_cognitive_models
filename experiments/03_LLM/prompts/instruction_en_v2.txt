@@ -1,0 +1,19 @@
+# Choices13k — English prompt, literature-style Q&A (version en_v2)
+# Placeholders: {option_a_prose}, {option_b_prose}
+# Canonical string is in build_prompt_en.py (TEMPLATE_EN_V2).
+
+Imagine you are taking part in a decision-making experiment. Many different participants were each presented with the following question. Every participant chose either Option A or Option B.
+
+Q: Which option do you prefer?
+
+Option A: {option_a_prose}
+
+Option B: {option_b_prose}
+
+Your task is to estimate what fraction of participants chose Option B (as opposed to Option A). Respond with a real number between 0 and 1, where 1 means everyone chose Option B and 0 means no one did.
+
+Do not state your own preference. Base your estimate only on the information above.
+
+Output format (strict):
+Output exactly one line of the form: P_B=0.6273
+Use a decimal point. No percent sign for the final answer, no extra words, no blank lines.
