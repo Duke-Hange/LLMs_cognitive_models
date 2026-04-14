@@ -1,0 +1,64 @@
+{
+  "seed": 42,
+  "split_type": "train_test",
+  "model_name": "eu",
+  "timestamp": "20260321_144343",
+  "history": [
+    {
+      "iteration": 1,
+      "train_loss": 0.05170756460908912
+    },
+    {
+      "iteration": 2,
+      "train_loss": 0.04345137281823536
+    },
+    {
+      "iteration": 3,
+      "train_loss": 0.03886330357837986
+    },
+    {
+      "iteration": 4,
+      "train_loss": 0.03634768910429128
+    },
+    {
+      "iteration": 5,
+      "train_loss": 0.03371958677149136
+    },
+    {
+      "iteration": 6,
+      "train_loss": 0.030298661465830354
+    },
+    {
+      "iteration": 7,
+      "train_loss": 0.025351638932106294
+    },
+    {
+      "iteration": 8,
+      "train_loss": 0.024432564250231995
+    },
+    {
+      "iteration": 9,
+      "train_loss": 0.02386795059838002
+    },
+    {
+      "iteration": 10,
+      "train_loss": 0.023153428801452658
+    },
+    {
+      "iteration": 11,
+      "train_loss": 0.02284795543864951
+    },
+    {
+      "iteration": 12,
+      "train_loss": 0.022795461707070624
+    },
+    {
+      "iteration": 13,
+      "train_loss": 0.022790352761146732
+    },
+    {
+      "iteration": 14,
+      "train_loss": 0.02279024087384309
+    }
+  ]
+}
