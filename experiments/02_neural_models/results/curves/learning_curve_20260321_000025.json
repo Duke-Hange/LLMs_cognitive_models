@@ -1,0 +1,114 @@
+{
+  "timestamp": "20260321_000025",
+  "rows": [
+    {
+      "model_type": "value_based",
+      "fraction": 0.2,
+      "seed": 42,
+      "test_mse": 0.03424473734787814,
+      "test_cross_entropy": 0.6653795175426028
+    },
+    {
+      "model_type": "context_dependent",
+      "fraction": 0.2,
+      "seed": 42,
+      "test_mse": 0.023098489081106788,
+      "test_cross_entropy": 0.6421760145727212
+    },
+    {
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.2,
+      "seed": 42,
+      "test_mse": 0.021569524231114807,
+      "test_cross_entropy": 0.6367335189093382
+    },
+    {
+      "model_type": "value_based",
+      "fraction": 0.4,
+      "seed": 42,
+      "test_mse": 0.023712160342981046,
+      "test_cross_entropy": 0.6447013739094928
+    },
+    {
+      "model_type": "context_dependent",
+      "fraction": 0.4,
+      "seed": 42,
+      "test_mse": 0.016962576668574713,
+      "test_cross_entropy": 0.6287903055943155
+    },
+    {
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.4,
+      "seed": 42,
+      "test_mse": 0.01736486749064397,
+      "test_cross_entropy": 0.6283859832043955
+    },
+    {
+      "model_type": "value_based",
+      "fraction": 0.6,
+      "seed": 42,
+      "test_mse": 0.022285378394376557,
+      "test_cross_entropy": 0.641506994225355
+    },
+    {
+      "model_type": "context_dependent",
+      "fraction": 0.6,
+      "seed": 42,
+      "test_mse": 0.014771756901728487,
+      "test_cross_entropy": 0.623458249296115
+    },
+    {
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.6,
+      "seed": 42,
+      "test_mse": 0.015547458668805568,
+      "test_cross_entropy": 0.6248752444540776
+    },
+    {
+      "model_type": "value_based",
+      "fraction": 0.8,
+      "seed": 42,
+      "test_mse": 0.02106169465513154,
+      "test_cross_entropy": 0.6385602906410094
+    },
+    {
+      "model_type": "context_dependent",
+      "fraction": 0.8,
+      "seed": 42,
+      "test_mse": 0.013620510094583692,
+      "test_cross_entropy": 0.6204892483388926
+    },
+    {
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.8,
+      "seed": 42,
+      "test_mse": 0.013300334795857302,
+      "test_cross_entropy": 0.6194692125033545
+    },
+    {
+      "model_type": "value_based",
+      "fraction": 1.0,
+      "seed": 42,
+      "test_mse": 0.020992949321134675,
+      "test_cross_entropy": 0.6382658013872622
+    },
+    {
+      "model_type": "context_dependent",
+      "fraction": 1.0,
+      "seed": 42,
+      "test_mse": 0.013368871975025336,
+      "test_cross_entropy": 0.6200582509572649
+    },
+    {
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 1.0,
+      "seed": 42,
+      "test_mse": 0.013250546353532497,
+      "test_cross_entropy": 0.6189458948164653
+    }
+  ],
+  "seeds": [
+    42
+  ],
+  "split": "single_train_test_split"
+}

@@ -1,0 +1,1209 @@
+{
+  "timestamp": "20260321_151641",
+  "rows": [
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.02,
+      "seed": 42,
+      "test_mse": 0.04012408137539929,
+      "test_cross_entropy": 0.6774104881753003
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.02,
+      "seed": 42,
+      "test_mse": 0.048233930838651635,
+      "test_cross_entropy": 0.6958876884096401
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.02,
+      "seed": 42,
+      "test_mse": 0.04106867143879388,
+      "test_cross_entropy": 0.6791986679198418
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.04,
+      "seed": 42,
+      "test_mse": 0.03782196163048525,
+      "test_cross_entropy": 0.6727458632448478
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.04,
+      "seed": 42,
+      "test_mse": 0.04104269414010247,
+      "test_cross_entropy": 0.686876558245519
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.04,
+      "seed": 42,
+      "test_mse": 0.033010467950722266,
+      "test_cross_entropy": 0.6622634219333516
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.06,
+      "seed": 42,
+      "test_mse": 0.037554924159637605,
+      "test_cross_entropy": 0.6732727066166994
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.06,
+      "seed": 42,
+      "test_mse": 0.03533176874368091,
+      "test_cross_entropy": 0.6731628437173341
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.06,
+      "seed": 42,
+      "test_mse": 0.030131154166265328,
+      "test_cross_entropy": 0.6559047402655889
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.08,
+      "seed": 42,
+      "test_mse": 0.03704009499643089,
+      "test_cross_entropy": 0.6710635904482851
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.08,
+      "seed": 42,
+      "test_mse": 0.031115303062111417,
+      "test_cross_entropy": 0.6629216145297473
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.08,
+      "seed": 42,
+      "test_mse": 0.02616440724955879,
+      "test_cross_entropy": 0.6470515597417797
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.1,
+      "seed": 42,
+      "test_mse": 0.03627731740222489,
+      "test_cross_entropy": 0.6701676036178704
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.1,
+      "seed": 42,
+      "test_mse": 0.028183043390473794,
+      "test_cross_entropy": 0.6532882830939073
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.1,
+      "seed": 42,
+      "test_mse": 0.026902582309048302,
+      "test_cross_entropy": 0.6490401860016675
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.12,
+      "seed": 42,
+      "test_mse": 0.03633765235644424,
+      "test_cross_entropy": 0.67101056442094
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.12,
+      "seed": 42,
+      "test_mse": 0.026901793968453335,
+      "test_cross_entropy": 0.6505024176631329
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.12,
+      "seed": 42,
+      "test_mse": 0.023789654664658714,
+      "test_cross_entropy": 0.6422126240851821
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.14,
+      "seed": 42,
+      "test_mse": 0.034536795645703375,
+      "test_cross_entropy": 0.6663558294236341
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.14,
+      "seed": 42,
+      "test_mse": 0.025420031376849537,
+      "test_cross_entropy": 0.6481848855342993
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.14,
+      "seed": 42,
+      "test_mse": 0.021496934999819584,
+      "test_cross_entropy": 0.6374411177990157
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.16,
+      "seed": 42,
+      "test_mse": 0.03460597938911954,
+      "test_cross_entropy": 0.666308758099064
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.16,
+      "seed": 42,
+      "test_mse": 0.023063315636881118,
+      "test_cross_entropy": 0.6424949812124296
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.16,
+      "seed": 42,
+      "test_mse": 0.022487709171699195,
+      "test_cross_entropy": 0.6387730022760278
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.18,
+      "seed": 42,
+      "test_mse": 0.03450916109051196,
+      "test_cross_entropy": 0.6666616067349459
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.18,
+      "seed": 42,
+      "test_mse": 0.021694566385075612,
+      "test_cross_entropy": 0.6412942901126899
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.18,
+      "seed": 42,
+      "test_mse": 0.021561799667328466,
+      "test_cross_entropy": 0.6365065167992165
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.2,
+      "seed": 42,
+      "test_mse": 0.034244737860212135,
+      "test_cross_entropy": 0.6653795186819252
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.2,
+      "seed": 42,
+      "test_mse": 0.023098488266798844,
+      "test_cross_entropy": 0.6421760101301829
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.2,
+      "seed": 42,
+      "test_mse": 0.021569518526632903,
+      "test_cross_entropy": 0.6367335045380771
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.22,
+      "seed": 42,
+      "test_mse": 0.03392092966937511,
+      "test_cross_entropy": 0.6652979502110534
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.22,
+      "seed": 42,
+      "test_mse": 0.020343464489691515,
+      "test_cross_entropy": 0.6364135414399346
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.22,
+      "seed": 42,
+      "test_mse": 0.02022291161027461,
+      "test_cross_entropy": 0.6342480761312184
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.24,
+      "seed": 42,
+      "test_mse": 0.03426751774764976,
+      "test_cross_entropy": 0.6655613770069868
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.24,
+      "seed": 42,
+      "test_mse": 0.0208838650564824,
+      "test_cross_entropy": 0.6366447577432783
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.24,
+      "seed": 42,
+      "test_mse": 0.019774934085523173,
+      "test_cross_entropy": 0.6341832743941105
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.26,
+      "seed": 42,
+      "test_mse": 0.03376026666059269,
+      "test_cross_entropy": 0.6647011289444614
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.26,
+      "seed": 42,
+      "test_mse": 0.020598023655983008,
+      "test_cross_entropy": 0.6357676203617896
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.26,
+      "seed": 42,
+      "test_mse": 0.020183506905982914,
+      "test_cross_entropy": 0.6340560991070988
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.28,
+      "seed": 42,
+      "test_mse": 0.03386431675384149,
+      "test_cross_entropy": 0.6647235063114446
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.28,
+      "seed": 42,
+      "test_mse": 0.018915404202082927,
+      "test_cross_entropy": 0.6328766819787407
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.28,
+      "seed": 42,
+      "test_mse": 0.01960449242724488,
+      "test_cross_entropy": 0.6330848400729174
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.3,
+      "seed": 42,
+      "test_mse": 0.03334097167991645,
+      "test_cross_entropy": 0.6638496449914673
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.3,
+      "seed": 42,
+      "test_mse": 0.017691546026206737,
+      "test_cross_entropy": 0.6313772992679114
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.3,
+      "seed": 42,
+      "test_mse": 0.016762785886379274,
+      "test_cross_entropy": 0.6274082648492275
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.32,
+      "seed": 42,
+      "test_mse": 0.03333042530379671,
+      "test_cross_entropy": 0.6637139253827888
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.32,
+      "seed": 42,
+      "test_mse": 0.017253459484969015,
+      "test_cross_entropy": 0.6299133029551158
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.32,
+      "seed": 42,
+      "test_mse": 0.018586442186947886,
+      "test_cross_entropy": 0.6309550317348217
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.34,
+      "seed": 42,
+      "test_mse": 0.02622563268921761,
+      "test_cross_entropy": 0.6504812632846388
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.34,
+      "seed": 42,
+      "test_mse": 0.018502874444092765,
+      "test_cross_entropy": 0.6311861538395735
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.34,
+      "seed": 42,
+      "test_mse": 0.017904820516747282,
+      "test_cross_entropy": 0.6295518341702054
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.36,
+      "seed": 42,
+      "test_mse": 0.032911637787144586,
+      "test_cross_entropy": 0.6631484326794042
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.36,
+      "seed": 42,
+      "test_mse": 0.017743840051878724,
+      "test_cross_entropy": 0.6304529827545227
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.36,
+      "seed": 42,
+      "test_mse": 0.018282476748446196,
+      "test_cross_entropy": 0.6307550152215902
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.38,
+      "seed": 42,
+      "test_mse": 0.03035161665067592,
+      "test_cross_entropy": 0.6580868665414816
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.38,
+      "seed": 42,
+      "test_mse": 0.019226754439194395,
+      "test_cross_entropy": 0.633677412359202
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.38,
+      "seed": 42,
+      "test_mse": 0.018235517618832502,
+      "test_cross_entropy": 0.6296264987792978
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.4,
+      "seed": 42,
+      "test_mse": 0.02371320304717337,
+      "test_cross_entropy": 0.6447034470931138
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.4,
+      "seed": 42,
+      "test_mse": 0.017739854827795977,
+      "test_cross_entropy": 0.6301276855019451
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.4,
+      "seed": 42,
+      "test_mse": 0.01736790412315552,
+      "test_cross_entropy": 0.628391314191281
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.42,
+      "seed": 42,
+      "test_mse": 0.0319261448629139,
+      "test_cross_entropy": 0.6611424580719746
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.42,
+      "seed": 42,
+      "test_mse": 0.01717061940865604,
+      "test_cross_entropy": 0.6288964870465892
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.42,
+      "seed": 42,
+      "test_mse": 0.017821511314116564,
+      "test_cross_entropy": 0.6292045877113108
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.44,
+      "seed": 42,
+      "test_mse": 0.027772093183015305,
+      "test_cross_entropy": 0.6528760380191989
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.44,
+      "seed": 42,
+      "test_mse": 0.016672776385960344,
+      "test_cross_entropy": 0.6278115752524897
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.44,
+      "seed": 42,
+      "test_mse": 0.01589994244679287,
+      "test_cross_entropy": 0.625616039423192
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.46,
+      "seed": 42,
+      "test_mse": 0.023017318546295493,
+      "test_cross_entropy": 0.6428784721621128
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.46,
+      "seed": 42,
+      "test_mse": 0.015873639990459255,
+      "test_cross_entropy": 0.6253715995058313
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.46,
+      "seed": 42,
+      "test_mse": 0.016875761386611104,
+      "test_cross_entropy": 0.6277284670226185
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.48,
+      "seed": 42,
+      "test_mse": 0.032044578347708054,
+      "test_cross_entropy": 0.6612666233956929
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.48,
+      "seed": 42,
+      "test_mse": 0.01578071074532409,
+      "test_cross_entropy": 0.6259611418038901
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.48,
+      "seed": 42,
+      "test_mse": 0.015871299874502816,
+      "test_cross_entropy": 0.6252678265404968
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.5,
+      "seed": 42,
+      "test_mse": 0.025519958488641293,
+      "test_cross_entropy": 0.6480360116712516
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.5,
+      "seed": 42,
+      "test_mse": 0.015661571380020358,
+      "test_cross_entropy": 0.62534741125242
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.5,
+      "seed": 42,
+      "test_mse": 0.014740876215223731,
+      "test_cross_entropy": 0.6231232515356696
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.52,
+      "seed": 42,
+      "test_mse": 0.023401080783992233,
+      "test_cross_entropy": 0.6442670401016831
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.52,
+      "seed": 42,
+      "test_mse": 0.017323523673318544,
+      "test_cross_entropy": 0.6290794199873562
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.52,
+      "seed": 42,
+      "test_mse": 0.015046901449569657,
+      "test_cross_entropy": 0.6234117182425992
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.54,
+      "seed": 42,
+      "test_mse": 0.02161868507221646,
+      "test_cross_entropy": 0.6400246746475704
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.54,
+      "seed": 42,
+      "test_mse": 0.016844757215266522,
+      "test_cross_entropy": 0.6281815345855546
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.54,
+      "seed": 42,
+      "test_mse": 0.016569283935978958,
+      "test_cross_entropy": 0.6259404350760915
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.56,
+      "seed": 42,
+      "test_mse": 0.023469454029700628,
+      "test_cross_entropy": 0.6440836142275154
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.56,
+      "seed": 42,
+      "test_mse": 0.015348366312049966,
+      "test_cross_entropy": 0.6245243218564049
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.56,
+      "seed": 42,
+      "test_mse": 0.015215396552136844,
+      "test_cross_entropy": 0.6241602578673969
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.58,
+      "seed": 42,
+      "test_mse": 0.022689790481967644,
+      "test_cross_entropy": 0.6422847797756905
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.58,
+      "seed": 42,
+      "test_mse": 0.01595476499336196,
+      "test_cross_entropy": 0.6260235008373171
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.58,
+      "seed": 42,
+      "test_mse": 0.015569648379508628,
+      "test_cross_entropy": 0.6244137262254711
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.6,
+      "seed": 42,
+      "test_mse": 0.02227709147769811,
+      "test_cross_entropy": 0.6414702596153142
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.6,
+      "seed": 42,
+      "test_mse": 0.015411792750176904,
+      "test_cross_entropy": 0.6248581277649303
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.6,
+      "seed": 42,
+      "test_mse": 0.01554746293020209,
+      "test_cross_entropy": 0.6248752565599678
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.62,
+      "seed": 42,
+      "test_mse": 0.0230430057549754,
+      "test_cross_entropy": 0.6430134667906641
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.62,
+      "seed": 42,
+      "test_mse": 0.01506666383543831,
+      "test_cross_entropy": 0.625173360858082
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.62,
+      "seed": 42,
+      "test_mse": 0.013882836707419579,
+      "test_cross_entropy": 0.6206635684115721
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.64,
+      "seed": 42,
+      "test_mse": 0.021502164316337193,
+      "test_cross_entropy": 0.6398170094733066
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.64,
+      "seed": 42,
+      "test_mse": 0.014318372404097007,
+      "test_cross_entropy": 0.6217438937853186
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.64,
+      "seed": 42,
+      "test_mse": 0.014650655019529647,
+      "test_cross_entropy": 0.6226248576889437
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.66,
+      "seed": 42,
+      "test_mse": 0.021691447351913792,
+      "test_cross_entropy": 0.6398887790851079
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.66,
+      "seed": 42,
+      "test_mse": 0.01461897273655782,
+      "test_cross_entropy": 0.622634666373863
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.66,
+      "seed": 42,
+      "test_mse": 0.012692140835866166,
+      "test_cross_entropy": 0.6179957416848917
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.68,
+      "seed": 42,
+      "test_mse": 0.021259614456780297,
+      "test_cross_entropy": 0.6390015375352959
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.68,
+      "seed": 42,
+      "test_mse": 0.013978590854068862,
+      "test_cross_entropy": 0.621659034958035
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.68,
+      "seed": 42,
+      "test_mse": 0.01452524247446051,
+      "test_cross_entropy": 0.6220265365765217
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.7,
+      "seed": 42,
+      "test_mse": 0.0212358105671758,
+      "test_cross_entropy": 0.6387893041495797
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.7,
+      "seed": 42,
+      "test_mse": 0.013735383663866351,
+      "test_cross_entropy": 0.6202761044055376
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.7,
+      "seed": 42,
+      "test_mse": 0.014131740286694889,
+      "test_cross_entropy": 0.6213456727326004
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.72,
+      "seed": 42,
+      "test_mse": 0.02076877069056613,
+      "test_cross_entropy": 0.6377896070958394
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.72,
+      "seed": 42,
+      "test_mse": 0.014465172033058724,
+      "test_cross_entropy": 0.6228110541990187
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.72,
+      "seed": 42,
+      "test_mse": 0.013233437868845245,
+      "test_cross_entropy": 0.6187863279919605
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.74,
+      "seed": 42,
+      "test_mse": 0.02166197984761619,
+      "test_cross_entropy": 0.6399138926615647
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.74,
+      "seed": 42,
+      "test_mse": 0.014285247170973334,
+      "test_cross_entropy": 0.6219161902514287
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.74,
+      "seed": 42,
+      "test_mse": 0.013117928424372696,
+      "test_cross_entropy": 0.619314134825094
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.76,
+      "seed": 42,
+      "test_mse": 0.021276487795766047,
+      "test_cross_entropy": 0.6390824324047746
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.76,
+      "seed": 42,
+      "test_mse": 0.013410732283035834,
+      "test_cross_entropy": 0.6194368489043018
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.76,
+      "seed": 42,
+      "test_mse": 0.013077694257950242,
+      "test_cross_entropy": 0.6188444300220189
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.78,
+      "seed": 42,
+      "test_mse": 0.021129965751583508,
+      "test_cross_entropy": 0.6386932793262782
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.78,
+      "seed": 42,
+      "test_mse": 0.01353518413724243,
+      "test_cross_entropy": 0.6199882994983594
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.78,
+      "seed": 42,
+      "test_mse": 0.013043433837779688,
+      "test_cross_entropy": 0.6189431847492621
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.8,
+      "seed": 42,
+      "test_mse": 0.02100247250915296,
+      "test_cross_entropy": 0.6384067633533952
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.8,
+      "seed": 42,
+      "test_mse": 0.01394240136629519,
+      "test_cross_entropy": 0.6216971139224923
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.8,
+      "seed": 42,
+      "test_mse": 0.013308473057918383,
+      "test_cross_entropy": 0.6194891892532747
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.82,
+      "seed": 42,
+      "test_mse": 0.0212701477432562,
+      "test_cross_entropy": 0.6392625605960297
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.82,
+      "seed": 42,
+      "test_mse": 0.014201570989526954,
+      "test_cross_entropy": 0.6212822869479254
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.82,
+      "seed": 42,
+      "test_mse": 0.012449878879624275,
+      "test_cross_entropy": 0.6175197342075276
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.84,
+      "seed": 42,
+      "test_mse": 0.0213715139393016,
+      "test_cross_entropy": 0.6393633309787192
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.84,
+      "seed": 42,
+      "test_mse": 0.013508192948202288,
+      "test_cross_entropy": 0.6200708461145259
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.84,
+      "seed": 42,
+      "test_mse": 0.013348647112297425,
+      "test_cross_entropy": 0.6193920811254674
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.86,
+      "seed": 42,
+      "test_mse": 0.021547499437335527,
+      "test_cross_entropy": 0.6396747183085073
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.86,
+      "seed": 42,
+      "test_mse": 0.0133818643281062,
+      "test_cross_entropy": 0.619560900264438
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.86,
+      "seed": 42,
+      "test_mse": 0.013155078411114194,
+      "test_cross_entropy": 0.6190689769865639
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.88,
+      "seed": 42,
+      "test_mse": 0.02075973501127829,
+      "test_cross_entropy": 0.6376105960049306
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.88,
+      "seed": 42,
+      "test_mse": 0.013182762932008447,
+      "test_cross_entropy": 0.6189897771283502
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.88,
+      "seed": 42,
+      "test_mse": 0.013440294901919227,
+      "test_cross_entropy": 0.6196431973607224
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.9,
+      "seed": 42,
+      "test_mse": 0.020835307016094852,
+      "test_cross_entropy": 0.6378729203527109
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.9,
+      "seed": 42,
+      "test_mse": 0.01339327499179146,
+      "test_cross_entropy": 0.6192295648925067
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.9,
+      "seed": 42,
+      "test_mse": 0.013196235677821728,
+      "test_cross_entropy": 0.6190604223857418
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.92,
+      "seed": 42,
+      "test_mse": 0.020981081525114253,
+      "test_cross_entropy": 0.6382199395873367
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.92,
+      "seed": 42,
+      "test_mse": 0.012960164952723773,
+      "test_cross_entropy": 0.6184697316189197
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.92,
+      "seed": 42,
+      "test_mse": 0.01305067146575929,
+      "test_cross_entropy": 0.6185081225874427
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.94,
+      "seed": 42,
+      "test_mse": 0.02042306456496176,
+      "test_cross_entropy": 0.6370660982014416
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.94,
+      "seed": 42,
+      "test_mse": 0.012768255059205303,
+      "test_cross_entropy": 0.6177275081344094
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.94,
+      "seed": 42,
+      "test_mse": 0.012943995072099432,
+      "test_cross_entropy": 0.618555603354041
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.96,
+      "seed": 42,
+      "test_mse": 0.020666811981441362,
+      "test_cross_entropy": 0.6374047759583407
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.96,
+      "seed": 42,
+      "test_mse": 0.012646202058011997,
+      "test_cross_entropy": 0.618170665225926
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.96,
+      "seed": 42,
+      "test_mse": 0.013200865252029006,
+      "test_cross_entropy": 0.6192100052197015
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 0.98,
+      "seed": 42,
+      "test_mse": 0.02156001086779933,
+      "test_cross_entropy": 0.6394902449199806
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 0.98,
+      "seed": 42,
+      "test_mse": 0.012887026458990413,
+      "test_cross_entropy": 0.6184611789822501
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 0.98,
+      "seed": 42,
+      "test_mse": 0.013076718237954461,
+      "test_cross_entropy": 0.6185252926436188
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "value_based",
+      "fraction": 1.0,
+      "seed": 42,
+      "test_mse": 0.02031338227858548,
+      "test_cross_entropy": 0.6365069673359006
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent",
+      "fraction": 1.0,
+      "seed": 42,
+      "test_mse": 0.013216608044643615,
+      "test_cross_entropy": 0.6194446477774619
+    },
+    {
+      "split_type": "train_test",
+      "model_type": "context_dependent_sigmoid",
+      "fraction": 1.0,
+      "seed": 42,
+      "test_mse": 0.013154413019066962,
+      "test_cross_entropy": 0.6186124809472193
+    }
+  ],
+  "seeds": [
+    42
+  ],
+  "split": "single_train_test_split"
+}
