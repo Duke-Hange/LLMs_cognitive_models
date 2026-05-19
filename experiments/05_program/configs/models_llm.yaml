@@ -1,6 +1,0 @@
-family: "llm"
-models:
-  - model_id: "llama3.1"
-    source_name: "llama3.1"
-  - model_id: "qwen2.5:7b-instruct"
-    source_name: "qwen2.5:7b-instruct"
